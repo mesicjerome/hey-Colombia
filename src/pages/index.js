@@ -1,14 +1,15 @@
 import React from "react"
-
 import "../styles/style.scss"
+
+//Import Components
+import Header from "../components/header"
 
 
 
 
 const IndexPage = () => (
   <div>
-    <h1>HEY COLOMBIA</h1>
-
+    <Header />
   </div>
 )
 
